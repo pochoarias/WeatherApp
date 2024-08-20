@@ -1,7 +1,3 @@
-Here is a sample README based on the description provided in the image:
-
----
-
 # Weather Forecast REST API
 
 This project implements a self-documenting REST API that retrieves weather data from an external service provider and stores it in a local MongoDB database. The API allows clients to query weather information based on location parameters, and once data is retrieved and stored, subsequent requests with the same parameters are served from the local database instead of querying the external API again.
