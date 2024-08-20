@@ -1,0 +1,15 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+    <PropertyGroup>
+        <TargetFramework>net6.0</TargetFramework>
+        <ImplicitUsings>enable</ImplicitUsings>
+        <Nullable>enable</Nullable>
+    </PropertyGroup>
+
+    <ItemGroup>
+      <ProjectReference Include="..\HttpHandler\HttpHandler.csproj" />
+      <ProjectReference Include="..\Weather.Entities\Weather.Entities.csproj" />
+      <ProjectReference Include="..\Weather.Repository\Weather.Repository.csproj" />
+    </ItemGroup>
+
+</Project>
